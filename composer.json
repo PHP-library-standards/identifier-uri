@@ -1,0 +1,23 @@
+{
+    "name": "pls/identifier-uri",
+    "description": "PLS URI specification",
+    "keywords": [
+        "PLS", "identifier", "uri"
+    ],
+    "homepage": "https://github.com/PHP-library-standards/identifier-uri",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Library Standards",
+            "homepage": "https://github.com/PHP-library-standards"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pls\\Identifier\\Uri\\": "src"
+        }
+    }
+}
